@@ -1,6 +1,7 @@
 package adapter;
 
 import domain.Covid19Pacient;
+import factory.SymptomFactory;
 
 import java.util.Comparator;
 import java.util.Iterator;
