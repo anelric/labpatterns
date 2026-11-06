@@ -14,9 +14,10 @@ public class Main {
 		new PacientSymptomGUI (pacient);
 		new PacientThermometerGUI(pacient);
 
-		Covid19Pacient pacient2=new Covid19Pacient("aitor", 35);
+		Covid19Pacient pacient2=new Covid19Pacient("leire", 20);
 		new PacientObserverGUI (pacient2);
 		new PacientSymptomGUI (pacient2);
+		new PacientThermometerGUI(pacient2);
 	}
 
 
