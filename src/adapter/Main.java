@@ -7,7 +7,7 @@ import java.util.Comparator;
 import java.util.Iterator;
 
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Covid19Pacient pacient = new Covid19Pacient("aitor",30,new SymptomFactory());
 
 
