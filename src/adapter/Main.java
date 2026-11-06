@@ -23,11 +23,13 @@ public class Main {
 
         Iterator i = Sorting.sortedIterator(ii, compName);
 
+        System.out.println("Sorted by name");
         while(i.hasNext()) System.out.println(i.next());
 
         ii.goLast();
         i = Sorting.sortedIterator(ii, compSeverity);
 
+        System.out.println("Sorted by severity");
         while(i.hasNext()) System.out.println(i.next());
     }
 }
